@@ -1,4 +1,4 @@
-const TELEGRAPH_URL = 'https://www.baidu.com/s';
+const TELEGRAPH_URL = 'https://www.baidu.com/';
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
