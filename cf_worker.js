@@ -1,4 +1,4 @@
-const TELEGRAPH_URL = 'https://open.bigmodel.cn/api/paas/v4/';
+const TELEGRAPH_URL = 'https://open.bigmodel.cn/';
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
