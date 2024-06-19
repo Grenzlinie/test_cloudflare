@@ -1,4 +1,4 @@
-const TELEGRAPH_URL = 'https://open.bigmodel.cn/';
+const TELEGRAPH_URL = 'https://www.baidu.com/s';
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
